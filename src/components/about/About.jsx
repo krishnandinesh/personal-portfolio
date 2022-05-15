@@ -37,7 +37,7 @@ const About = () => {
 
           </div>
 
-          <p>Aspiring Front-end Developer with a CS degree and the ability to collaborate effectively with senior developers and ensure strict compliance with all applicable deadlines.
+          <p>Front-end Developer with a CS degree and the ability to collaborate effectively with senior developers and ensure strict compliance with all applicable deadlines.
             Looking for an opportunity to exhibit my talents as a Front End developer, get introduced to new technologies, and broaden my knowledge in that domain.</p>
 
 
