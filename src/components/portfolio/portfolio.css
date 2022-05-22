@@ -33,6 +33,13 @@
     margin-bottom: 1rem;
 }
 
+.portfolio__redirect{
+    grid-column: 4/4;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 
@@ -41,6 +48,11 @@
     .portfolio__container {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1.2rem;
+    }
+
+    .portfolio__redirect{
+        grid-column: 3/3;
+        grid-row: 4/4;
     }
 
 }
@@ -53,6 +65,13 @@
         gap: 1.2rem;
     }
 
+    .portfolio__redirect{
+        grid-column: 2/2;
+        grid-row: 5/5;
+        
+    }
+
+
 }
 
 
@@ -64,6 +83,11 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .portfolio__redirect{
+        grid-column: 1/1;
+        grid-row: 9/9;
     }
 
 }
