@@ -1,15 +1,14 @@
-import React from 'react'
-import './about.css'
+import React from "react";
+import "./about.css";
 
-import ME from '../../assets/me.jpg'
+import ME from "../../assets/me.jpg";
 
-import { FaAward } from 'react-icons/fa'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import { FaAward } from "react-icons/fa";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
     <section id="about">
-
       <h5>Get to know</h5>
       <h2>About me</h2>
 
@@ -22,31 +21,33 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-
             <article className="about__card">
-              <FaAward className='about__icon' />
+              <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years of Experience</small>
+              <small>5 Years of Experience</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className='about__icon' />
+              <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>20+ Completed Projects</small>
             </article>
-
           </div>
-
-          <p>Front-end Developer with a CS degree and the ability to collaborate effectively with senior developers and ensure strict compliance with all applicable deadlines.
-            Looking for an opportunity to exhibit my talents as a Front-end developer, get introduced to new technologies, and broaden my knowledge in that domain.</p>
-
-
+          <p>
+            I am an aspiring Front-End Developer with experience in Technical
+            Writing, Project Management, and as a Junior Designer. While my
+            background has primarily been in Writing and Project Management, I
+            have worked with Designers to improve UI/UX and collaborate on web
+            projects. I am eager to develop my skills in Front-End Development,
+            learn new technologies, and contribute to building functional user
+            interfaces. My experience has strengthened my ability to communicate
+            complex concepts clearly and work effectively with cross-functional
+            teams.
+          </p>
         </div>
-
       </div>
-
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

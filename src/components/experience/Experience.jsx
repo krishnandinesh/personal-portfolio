@@ -65,47 +65,7 @@ const Experience = () => {
             </article>
 
           </div>
-        </div>
-
-        {/* ===================== END OF FRONTEND ===================== */}
-
-        <div className="experience__frontend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-
-            <article className="experience__details">
-              < BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Java</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              < BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>MSSQL</h4>
-                <small className='text-light'>Beginner</small>
-              </div>
-            </article>
-
-            {/* <article className="experience__details">
-              < BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Node JS</h4>
-                <small className='text-light'>Beginner</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              < BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>MongoDB</h4>
-                <small className='text-light'>Beginner</small>
-              </div>
-            </article> */}
-
-          </div>
+        
         </div>
       </div>
 

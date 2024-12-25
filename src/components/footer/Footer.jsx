@@ -2,13 +2,12 @@ import React from 'react'
 import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {IoLogoTwitter} from 'react-icons/io'
 
 
 const Footer = () => {
   return (
     <footer id='footer'>
-      <a href="#home" className='footer__logo'>Krishnan Dinesh</a>
+      {/* <a href="#home" className='footer__logo'>Dinesh</a> */}
 
       <ul className="permalinks">
 
@@ -23,7 +22,6 @@ const Footer = () => {
     <div className="footer__socials">
       <a href="https://www.linkedin.com/in/krishnandinesh/" target="_blank"><BsLinkedin/></a>
       <a href="https://github.com/krishnandinesh" target="_blank"><FaGithub/></a>
-      <a href="https://twitter.com/krishnandinesh5" target="_blank"><IoLogoTwitter/></a>
     </div>
 
     <div className="footer__copyright">
